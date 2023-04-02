@@ -1,0 +1,18 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.pagination input {
+  width: 50px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 767px) {
+  .pagination {
+    margin-bottom: 0;
+  }
+}
